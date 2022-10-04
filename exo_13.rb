@@ -2,7 +2,17 @@
 # "jean.dupont.01@email.fr"
 # "jean.dupont.02@email.fr"
 # etc..
+# merci au tuto https://www.youtube.com/watch?v=SP3Vf2KcYeU
 
-puts "Création d'une liste de 50 mails"
-puts ""
-array = [1, 5, 8, 'chaine', true, false]
+
+mails = Array.new
+100.times do |i|
+    if
+        i<9
+        mails[i+1]="jean.dupont.0#{i+1}@email.fr"
+    else
+        mails[i+1]="jean.dupont.#{i+1}@email.fr"
+    end
+end
+
+puts mails

@@ -8,3 +8,17 @@
   #####
  #######
 #########
+
+hashtag = "#"
+espace = " "
+puts "Donne un nombre entre 1 et 25 :"
+print "> "
+nombre = gets.to_i
+if nombre >=0
+    if nombre <= 25
+    nombre.times do |i|
+        i + i
+        puts espace * (nombre-(i+1))  + hashtag * (i+1)
+    end
+end
+end

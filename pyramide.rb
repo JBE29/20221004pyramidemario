@@ -8,3 +8,17 @@
  ####
 #####
 # Bien que légèrement différent dans l'énoncé, ce programme est bien plus dur que le exo_15.rb, donc c'est normal de devoir réfléchir à comment le faire 😎
+
+hashtag = "#"
+espace = " "
+puts "Donne un nombre entre 1 et 25 :"
+print "> "
+nombre = gets.to_i
+if nombre >=0
+    if nombre <= 25
+    nombre.times do |i|
+        i + i
+        puts espace * (nombre-(i+1))  + hashtag * (i+1)
+    end
+end
+end
