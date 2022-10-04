@@ -2,3 +2,7 @@
 # "jean.dupont.01@email.fr"
 # "jean.dupont.02@email.fr"
 # etc..
+
+puts "Création d'une liste de 50 mails"
+puts ""
+array = [1, 5, 8, 'chaine', true, false]
