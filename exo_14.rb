@@ -4,7 +4,7 @@
 # etc..
 
 mails = Array.new
-100.times do |i|
+50.times do |i|
     if
         i<9
         mails[i+1]="jean.dupont.0#{i+1}@email.fr"
@@ -13,7 +13,9 @@ mails = Array.new
     end
 end
 
-puts mails [
-    #n = 1   while n <= 100   {n * 2}   n = n + 1
-]
+
+05.times do |n|
+    if n%2 !=0
+        puts mails[n]
+    end
 end

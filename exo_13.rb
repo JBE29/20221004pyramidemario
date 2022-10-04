@@ -6,7 +6,7 @@
 
 
 mails = Array.new
-100.times do |i|
+50.times do |i|
     if
         i<9
         mails[i+1]="jean.dupont.0#{i+1}@email.fr"
